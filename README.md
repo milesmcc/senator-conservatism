@@ -11,7 +11,7 @@ This dataset was created by parsing the official Senator Estimates for the 1st t
 
 Conservatism is defined by the the senator's 1st dimension DW-NOMINATE score, where a score of 1 is considered most conservative, and -1 is considered least conservative. (The 1st dimension score generally corresponds to fiscal conservatism.)
 
-The results are outputted the `congresses/` directory, where each congress is given its own file. The file pattern is `<number of congress>.csv`.
+The results are outputted the `congresses/` directory, where each congress is given its own file. The file pattern is `<number of congress>.csv`. (To easily convert between Senates and years, see https://en.wikipedia.org/wiki/List_of_United_States_Congresses.)
 
 The outputted files rank the senators in order from most conservative to least conservative. The 67th most conservative senator (conversely, the 33rd most liberal) will be on row 68 (not 67, as row 1 is reserved for labels).
 
