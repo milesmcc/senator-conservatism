@@ -1,0 +1,2 @@
+congress,icpsr,state_code,district,state,party,name,dim1,dim2,dim1bootstrappedstandarderror,dim2bootstrappedstandarderror,correlation,loglikelihood,votes,errors,geomeanprobability
+CONGRESS,ICPSR,STATE CODE,DISTRICT NUMBER,STATE,PARTY,NAME,DIM_1,DIM_2,DIM_1 Bootstrapped Standard Error,DIM_2 Bootstrapped Standard Error,Correllation,Log-Likelihood,Votes,Errors,Geometric Mean Probability
