@@ -38,7 +38,7 @@ for row in data.rows:
 for congress_name in congresses:
     congress = congresses[congress_name]
     by_votes = sorted(congress, key=lambda k: k.votes, reverse=True)
-    by_conservatism = sorted(by_votes[:100], key=lambda k: k.dim1, reverse=True)
+    by_conservatism = sorted(congress, key=lambda k: k.dim1, reverse=True)
     with open("congresses/" + congress_name + ".csv", "wb") as outfile:
         outfile.write("congress,icpsr,state_code,district,state,party,name,dim1,dim2,dim1bootstrappedstandarderror,dim2bootstrappedstandarderror,correlation,loglikelihood,votes,errors,geomeanprobability\n")
         for legislator in by_conservatism:
